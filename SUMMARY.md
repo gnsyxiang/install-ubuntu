@@ -23,3 +23,7 @@
     * [pip](python/pip.md)
 
 -----
+* [neovim](neovim/README.md)
+    * [neovim](neovim/neovim.md)
+    * [markdown](neovim/markdown.md)
+    * [vim_scripts-mark](neovim/vim_scripts-mark.md)
