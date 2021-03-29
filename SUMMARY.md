@@ -15,3 +15,6 @@
 -----
 * [update-alternatives](update-alternatives/README.md)
     * [update-alternatives](update-alternatives/update-alternatives.md)
+* [nodejs](nodejs/README.md)
+    * [npm](nodejs/npm.md)
+    * [yarn](nodejs/yarn.md)
