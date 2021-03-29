@@ -13,3 +13,5 @@
     * [samba](samba/samba.md)
 
 -----
+* [update-alternatives](update-alternatives/README.md)
+    * [update-alternatives](update-alternatives/update-alternatives.md)
