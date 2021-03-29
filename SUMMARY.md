@@ -2,7 +2,8 @@
 
 * [Introduction](README.md)
 * [system](system/README.md)
-    * [install](system/install.md)
+    * [install](system/install_sys.md)
+    * [mount_data_disk](system/mount_data_disk.md)
 * [dotfile](dotfile/README.md)
     * [rcm](dotfile/rcm.md)
     * [restore_sys_env](dotfile/restore_sys_env.md)
