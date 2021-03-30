@@ -15,6 +15,8 @@
     * [ssh](ssh/ssh.md)
 * [samba](samba/README.md)
     * [samba](samba/samba.md)
+* [nfs](nfs/README.md)
+    * [nfs](nfs/nfs.md)
 
 -----
 * [update-alternatives](update-alternatives/README.md)

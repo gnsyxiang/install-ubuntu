@@ -1,5 +1,14 @@
 # SpaceVim
 
+<!-- vim-markdown-toc GFM -->
+
+- [安装](#安装)
+  - [安装`neovim`](#安装neovim)
+  - [安装`SpaceVim`](#安装spacevim)
+  - [配置相关字体](#配置相关字体)
+
+<!-- vim-markdown-toc -->
+
 [官网](https://spacevim.org/)
 
 ## 安装
