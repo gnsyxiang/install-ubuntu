@@ -20,6 +20,8 @@
     * [nfs](nfs/nfs.md)
 * [ftp](ftp/README.md)
     * [ftp](ftp/ftp.md)
+* [ip](ip/README.md)
+    * [ip](ip/ip.md)
 
 -----
 * [update-alternatives](update-alternatives/README.md)
