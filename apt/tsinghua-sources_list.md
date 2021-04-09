@@ -1,5 +1,13 @@
 # 清华源
 
+<!-- vim-markdown-toc GFM -->
+
+* [清华源](#清华源)
+  - [网站](#网站)
+  - [详细信息](#详细信息)
+
+<!-- vim-markdown-toc -->
+
 ## 清华源
 
 ### 网站
@@ -26,14 +34,4 @@ deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted 
 # deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
 # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
 ```
-
-## 更换
-
-* 备份`/etc/apt/sources.list`
-
-```shell
-$ sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
-```
-
-* 用上面的信息覆盖`sources.list`文件的内容
 
