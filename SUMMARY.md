@@ -18,6 +18,8 @@
     * [samba](samba/samba.md)
 * [nfs](nfs/README.md)
     * [nfs](nfs/nfs.md)
+* [ftp](ftp/README.md)
+    * [ftp](ftp/ftp.md)
 
 -----
 * [update-alternatives](update-alternatives/README.md)
