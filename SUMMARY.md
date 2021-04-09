@@ -28,6 +28,8 @@
 * [python](python/README.md)
     * [python](python/python.md)
     * [pip](python/pip.md)
+* [apt-file](apt-file/README.md)
+    * [apt-file](apt-file/apt-file.md)
 
 -----
 * [neovim](neovim/README.md)
