@@ -41,6 +41,7 @@
     * [markdown](neovim/markdown.md)
     * [vim_scripts-mark](neovim/vim_scripts-mark.md)
     * [coc](neovim/coc.md)
+    * [ccls](neovim/ccls.md)
 * [spacevim](spacevim/README.md)
     * [spacevim](spacevim/spacevim.md)
 * [gitbook](gitbook/README.md)
