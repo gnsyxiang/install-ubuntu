@@ -1,13 +1,25 @@
 # samba
 
+<!-- vim-markdown-toc GFM -->
+
+* [安装服务端](#安装服务端)
+  - [安装](#安装)
+  - [修改配置文件](#修改配置文件)
+  - [添加`samba`用户](#添加samba用户)
+  - [重启服务端](#重启服务端)
+* [安装客户端](#安装客户端)
+  - [安装](#安装-1)
+  - [查看某个ip提供的samba的服务](#查看某个ip提供的samba的服务)
+
+<!-- vim-markdown-toc -->
+
 ## 安装服务端
 
-
 ### 安装
+
 ```
 $ sudo apt install samba samba-common
 ```
-
 
 ### 修改配置文件
 
@@ -29,7 +41,6 @@ $ sudo vim /etc/samba/smb.conf
 ```
 $ sudo smbpasswd -a uos
 ```
-
 
 ### 重启服务端
 

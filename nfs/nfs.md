@@ -21,8 +21,8 @@
 ### 安装
 
 ```shell
-$sudo apt update
-$sudo apt install -y nfs-kernel-server
+$ sudo apt update
+$ sudo apt install -y nfs-kernel-server
 ```
 
 ### 修改配置文件
