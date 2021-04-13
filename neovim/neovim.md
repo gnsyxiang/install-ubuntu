@@ -2,17 +2,18 @@
 
 <!-- vim-markdown-toc GFM -->
 
-- [安装](#安装)
+* [安装](#安装)
   - [安装](#安装-1)
   - [检查`checkhealth`](#检查checkhealth)
-- [安装`neovim`相关依赖](#安装neovim相关依赖)
+* [安装`neovim`相关依赖](#安装neovim相关依赖)
   - [`Configuration`](#configuration)
   - [Python 2 provider (optional)](#python-2-provider-optional)
   - [`Python 3 provider (optional)`](#python-3-provider-optional)
   - [`Ruby provider (optional)`](#ruby-provider-optional)
   - [`Node.js provider (optional)`](#nodejs-provider-optional)
   - [Node.js provider (optional)](#nodejs-provider-optional-1)
-- [验证`checkhealth`](#验证checkhealth)
+  - [Require msgpack 1.0.0+ was not successful](#require-msgpack-100-was-not-successful)
+* [验证`checkhealth`](#验证checkhealth)
 
 <!-- vim-markdown-toc -->
 
@@ -212,7 +213,22 @@ $ sudo gem install neovim
 ```shell
 $ sudo npm install -g neovim
 ```
+### Require msgpack 1.0.0+ was not successful
 
+```txt
+health#denite#check
+========================================================================
+## denite.nvim
+  - OK: has("python3") was successful
+  - OK: Python 3.6.1+ was successful
+  - ERROR: Require msgpack 1.0.0+ was not successful
+    - ADVICE:
+      - Please install/upgrade msgpack 1.0.0+.
+```
+
+```shell
+$ python3 -mpip install --user -U msgpack
+```
 
 ## 验证`checkhealth`
 
