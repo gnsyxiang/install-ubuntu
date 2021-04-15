@@ -1,5 +1,19 @@
 # rcm
 
+
+<!-- vim-markdown-toc GFM -->
+
+* [安装](#安装)
+  - [mac安装](#mac安装)
+  - [ubuntu安装](#ubuntu安装)
+* [使用](#使用)
+  - [mkrc](#mkrc)
+* [rcup](#rcup)
+
+<!-- vim-markdown-toc -->
+
+URL: [官方网站](https://github.com/thoughtbot/rcm) 
+
 ## 安装
 
 ### mac安装
