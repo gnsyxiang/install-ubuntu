@@ -29,6 +29,7 @@
 * [nodejs](nodejs/README.md)
     * [npm](nodejs/npm.md)
     * [yarn](nodejs/yarn.md)
+    * [nrm](nodejs/nrm.md)
 * [python](python/README.md)
     * [python](python/python.md)
     * [pip](python/pip.md)

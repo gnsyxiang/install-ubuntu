@@ -1,5 +1,17 @@
 # npm
 
+<!-- vim-markdown-toc GFM -->
+
+* [安装](#安装)
+* [镜像源](#镜像源)
+* [配置文件](#配置文件)
+* [安装软件包](#安装软件包)
+  - [升级npm](#升级npm)
+    + [安装n](#安装n)
+* [查看版本](#查看版本)
+
+<!-- vim-markdown-toc -->
+
 安装包管理和分发工具
 
 ## 安装
@@ -11,17 +23,20 @@ $ sudo apt install -y npm
 ## 镜像源
 
 ```
-$ npm config set registry https://registry.npm.taobao.org
+$ npm config set registry https://registry.npmjs.org            # 官方镜像
+$ npm config set registry https://registry.npm.taobao.org       # 淘宝镜像
+
 $ npm config get registry
 ```
 
 ## 配置文件
 
 ```
-$ npm config get userconfig     ## 查看配置文件路径，
-$ npm config ls -l              ##　查看所有配置项
-$ npm config get cache          ## 查看缓存配置，get后面可以跟任意配置项
-$ npm config edit               ## 直接编辑config文件，这个会打开文本
+$ npm config get userconfig     # 查看配置文件路径，
+$ npm config ls -l              # 查看所有配置项
+$ npm config get cache          # 查看缓存配置，get后面可以跟任意配置项
+$ npm config edit               # 直接编辑config文件，这个会打开文本
+$ npm root -g                   # 查看npm全局安装路径
 ```
 
 ## 安装软件包
@@ -32,7 +47,7 @@ $ npm config edit               ## 直接编辑config文件，这个会打开文
 > 可以直接在命令行里使用。
 
 ```
-sudo npm -g install xxx
+sudo npm install -g xxx
 ```
 
 * 本地安装
@@ -47,8 +62,8 @@ $ npm install xxx
 ### 升级npm
 
 ```
-$ sudo npm -g install npm
-$ sudo npm -g install npm@latest
+$ sudo npm install -g npm
+$ sudo npm install -g npm@latest
 ```
 
 
@@ -56,7 +71,7 @@ $ sudo npm -g install npm@latest
 
 * 安装
 ```
-$ sudo npm -g install n
+$ sudo npm install -g n
 ```
 
 * 切换版本
