@@ -1,16 +1,16 @@
 # Summary
 
 * [Introduction](README.md)
-* [system](system/README.md)
-    * [install](system/install_sys.md)
-    * [mount_data_disk](system/mount_data_disk.md)
-* [dotfile](dotfile/README.md)
+* [安装系统](system/README.md)
+    * [安装系统](system/install_sys.md)
+    * [挂在数据盘](system/mount_data_disk.md)
+* [配置文件管理](dotfile/README.md)
     * [rcm](dotfile/rcm.md)
-    * [restore_sys_env](dotfile/restore_sys_env.md)
-* [apt](apt/README.md)
+    * [恢复系统相关环境](dotfile/restore_sys_env.md)
+* [系统源](apt/README.md)
     * [apt](apt/apt.md)
-    * [tsinghua-sources.list](apt/tsinghua-sources_list.md)
-* [sogou_input_method](sogou_input_method/README.md)
+    * [清华源](apt/tsinghua-sources_list.md)
+* [sogou输入法](sogou_input_method/README.md)
     * [install](sogou_input_method/install.md)
 * [ssh](ssh/README.md)
     * [ssh](ssh/ssh.md)
@@ -24,7 +24,7 @@
     * [ip](ip/ip.md)
 
 -----
-* [update-alternatives](update-alternatives/README.md)
+* [update-alternatives软件多版本管理](update-alternatives/README.md)
     * [update-alternatives](update-alternatives/update-alternatives.md)
 * [nodejs](nodejs/README.md)
     * [npm](nodejs/npm.md)
@@ -49,6 +49,6 @@
     * [gitbook](gitbook/gitbook.md)
 
 -----
-* [ccache](ccache/README.md)
+* [ccache加快编译](ccache/README.md)
     * [ccache](ccache/ccache.md)
 

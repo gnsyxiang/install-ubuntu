@@ -52,7 +52,7 @@ sudo npm install -g xxx
 
 * 本地安装
 
-> 将安装包放在 ./node_modules 下（运行 npm 命令时所在的目录），如果没有 node_modules 目录，会在当前执行 npm 命令的目录下生成 node_modules 目录。
+> 将安装包放在`./node_modules`下（运行 npm 命令时所在的目录），如果没有 node_modules 目录，会在当前执行 npm 命令的目录下生成 node_modules 目录。
 > 可以通过 require() 来引入本地安装的包。
 
 ```

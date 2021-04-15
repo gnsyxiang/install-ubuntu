@@ -2,7 +2,7 @@
 
 <!-- vim-markdown-toc GFM -->
 
-- [安装`coc.nvim`](#安装cocnvim)
+* [安装`coc.nvim`](#安装cocnvim)
   - [检查相关依赖](#检查相关依赖)
   - [安装coc插件](#安装coc插件)
 
@@ -14,7 +14,7 @@
 
 * 安装`neovim`
 
-[详见neovim](./neovim.md)
+[详见neovim](neovim.md)
 
 * 安装`SpaceVim`
 
@@ -22,7 +22,7 @@
 
 * 安装`ccls`
 
-[详见ccls](./ccls.md)
+[详见ccls](ccls.md)
 
 
 ### 安装coc插件

@@ -22,7 +22,8 @@
 ### 安装
 
 ```
-sudo apt install neovim -y
+$ sudo apt install -y neovim
+$ sudo apt install -y vim-gtk3
 ```
 
 ### 检查`checkhealth`
@@ -168,7 +169,7 @@ $ pip3 install --upgrade pynvim
 ```
 
 ```shell 
-sudo apt install -y ruby-dev
+$ sudo apt install -y ruby-dev
 ```
 
 ```txt

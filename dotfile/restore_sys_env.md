@@ -58,7 +58,7 @@ $ ln -s ~/data/opt/python3.8 ~/.local/lib/python3.8
 ### 恢复`SpaceVim`到`neovim`中
 
 ```shell
-$ ln -s ~/data/opt/SpaceVim ~/.config/neovim
+$ ln -s ~/data/opt/SpaceVim ~/.config/nvim
 ```
 
 ### 恢复`vimfiles`目录到系统中
